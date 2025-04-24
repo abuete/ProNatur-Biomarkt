@@ -13,12 +13,14 @@ namespace ProNatur_Biomarkt_GmbH
     public partial class LoadingScreen : Form
     {
         private int loadingBarValue;
+
+        // Konstruktor
         public LoadingScreen()
         {
             InitializeComponent();
         }
 
-        // Einstiegspunkt
+        // Laden des Formular LoadingScreen
         private void LoadingScreen_Load(object sender, EventArgs e)
         {
             // Timer starten
@@ -41,6 +43,14 @@ namespace ProNatur_Biomarkt_GmbH
             {
                 // Timer stoppen
                 loadingbarTimer.Stop();
+
+                // Formular MainMenuScreen anzeigen
+                MainMenuScreen mainMenuScreen = new MainMenuScreen();
+                mainMenuScreen.Show();
+
+                // Formular LoadingScreen nicht mehr anzeigen
+                // "this", da wir uns in dieser Klasse befinden
+                this.Hide();
             }
         }    
 
