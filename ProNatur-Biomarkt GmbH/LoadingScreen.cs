@@ -48,7 +48,7 @@ namespace ProNatur_Biomarkt_GmbH
                 MainMenuScreen mainMenuScreen = new MainMenuScreen();
                 mainMenuScreen.Show();
 
-                // Formular LoadingScreen nicht mehr anzeigen
+                // Formular LoadingScreen verbergen
                 // "this", da wir uns in dieser Klasse befinden
                 this.Hide();
             }

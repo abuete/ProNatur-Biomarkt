@@ -1,0 +1,258 @@
+﻿namespace ProNatur_Biomarkt_GmbH
+{
+    partial class ProductsScreen
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.lblName = new System.Windows.Forms.Label();
+            this.txtBoxProductName = new System.Windows.Forms.TextBox();
+            this.textBoxProductBrand = new System.Windows.Forms.TextBox();
+            this.lblBrand = new System.Windows.Forms.Label();
+            this.lblCategory = new System.Windows.Forms.Label();
+            this.textBoxProductPrice = new System.Windows.Forms.TextBox();
+            this.lblPrice = new System.Windows.Forms.Label();
+            this.comboBoxProductCategory = new System.Windows.Forms.ComboBox();
+            this.btnProductSave = new System.Windows.Forms.Button();
+            this.btnProductEdit = new System.Windows.Forms.Button();
+            this.btnProductDelete = new System.Windows.Forms.Button();
+            this.btnProductClear = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.BackColor = System.Drawing.Color.Transparent;
+            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.ForeColor = System.Drawing.Color.White;
+            this.lblName.Location = new System.Drawing.Point(29, 26);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(48, 16);
+            this.lblName.TabIndex = 0;
+            this.lblName.Text = "Name";
+            // 
+            // txtBoxProductName
+            // 
+            this.txtBoxProductName.BackColor = System.Drawing.Color.Gray;
+            this.txtBoxProductName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBoxProductName.CausesValidation = false;
+            this.txtBoxProductName.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBoxProductName.ForeColor = System.Drawing.Color.White;
+            this.txtBoxProductName.Location = new System.Drawing.Point(124, 27);
+            this.txtBoxProductName.Name = "txtBoxProductName";
+            this.txtBoxProductName.Size = new System.Drawing.Size(271, 22);
+            this.txtBoxProductName.TabIndex = 1;
+            // 
+            // textBoxProductBrand
+            // 
+            this.textBoxProductBrand.BackColor = System.Drawing.Color.Gray;
+            this.textBoxProductBrand.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxProductBrand.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxProductBrand.ForeColor = System.Drawing.Color.White;
+            this.textBoxProductBrand.Location = new System.Drawing.Point(124, 60);
+            this.textBoxProductBrand.Name = "textBoxProductBrand";
+            this.textBoxProductBrand.Size = new System.Drawing.Size(270, 22);
+            this.textBoxProductBrand.TabIndex = 3;
+            // 
+            // lblBrand
+            // 
+            this.lblBrand.AutoSize = true;
+            this.lblBrand.BackColor = System.Drawing.Color.Transparent;
+            this.lblBrand.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBrand.ForeColor = System.Drawing.Color.White;
+            this.lblBrand.Location = new System.Drawing.Point(29, 59);
+            this.lblBrand.Name = "lblBrand";
+            this.lblBrand.Size = new System.Drawing.Size(50, 16);
+            this.lblBrand.TabIndex = 2;
+            this.lblBrand.Text = "Marke";
+            // 
+            // lblCategory
+            // 
+            this.lblCategory.AutoSize = true;
+            this.lblCategory.BackColor = System.Drawing.Color.Transparent;
+            this.lblCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCategory.ForeColor = System.Drawing.Color.White;
+            this.lblCategory.Location = new System.Drawing.Point(29, 94);
+            this.lblCategory.Name = "lblCategory";
+            this.lblCategory.Size = new System.Drawing.Size(74, 16);
+            this.lblCategory.TabIndex = 4;
+            this.lblCategory.Text = "Kategorie";
+            // 
+            // textBoxProductPrice
+            // 
+            this.textBoxProductPrice.BackColor = System.Drawing.Color.Gray;
+            this.textBoxProductPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxProductPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxProductPrice.ForeColor = System.Drawing.Color.White;
+            this.textBoxProductPrice.Location = new System.Drawing.Point(124, 129);
+            this.textBoxProductPrice.Name = "textBoxProductPrice";
+            this.textBoxProductPrice.Size = new System.Drawing.Size(271, 22);
+            this.textBoxProductPrice.TabIndex = 7;
+            // 
+            // lblPrice
+            // 
+            this.lblPrice.AutoSize = true;
+            this.lblPrice.BackColor = System.Drawing.Color.Transparent;
+            this.lblPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrice.ForeColor = System.Drawing.Color.White;
+            this.lblPrice.Location = new System.Drawing.Point(29, 129);
+            this.lblPrice.Name = "lblPrice";
+            this.lblPrice.Size = new System.Drawing.Size(43, 16);
+            this.lblPrice.TabIndex = 6;
+            this.lblPrice.Text = "Preis";
+            // 
+            // comboBoxProductCategory
+            // 
+            this.comboBoxProductCategory.BackColor = System.Drawing.Color.Gray;
+            this.comboBoxProductCategory.DropDownHeight = 100;
+            this.comboBoxProductCategory.DropDownWidth = 270;
+            this.comboBoxProductCategory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBoxProductCategory.ForeColor = System.Drawing.Color.White;
+            this.comboBoxProductCategory.FormattingEnabled = true;
+            this.comboBoxProductCategory.IntegralHeight = false;
+            this.comboBoxProductCategory.Items.AddRange(new object[] {
+            "Obst",
+            "Gemüse",
+            "Fleisch",
+            "Fisch",
+            "Drogerie",
+            "Getränke"});
+            this.comboBoxProductCategory.Location = new System.Drawing.Point(124, 91);
+            this.comboBoxProductCategory.Name = "comboBoxProductCategory";
+            this.comboBoxProductCategory.Size = new System.Drawing.Size(270, 24);
+            this.comboBoxProductCategory.TabIndex = 8;
+            this.comboBoxProductCategory.Text = "Bitte wählen...";
+            // 
+            // btnProductSave
+            // 
+            this.btnProductSave.BackColor = System.Drawing.Color.Gray;
+            this.btnProductSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductSave.Location = new System.Drawing.Point(263, 213);
+            this.btnProductSave.Name = "btnProductSave";
+            this.btnProductSave.Size = new System.Drawing.Size(132, 34);
+            this.btnProductSave.TabIndex = 9;
+            this.btnProductSave.Text = "Speichern";
+            this.btnProductSave.UseVisualStyleBackColor = false;
+            this.btnProductSave.Click += new System.EventHandler(this.btnProductSave_Click);
+            // 
+            // btnProductEdit
+            // 
+            this.btnProductEdit.BackColor = System.Drawing.Color.Gray;
+            this.btnProductEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductEdit.Location = new System.Drawing.Point(124, 213);
+            this.btnProductEdit.Name = "btnProductEdit";
+            this.btnProductEdit.Size = new System.Drawing.Size(132, 34);
+            this.btnProductEdit.TabIndex = 10;
+            this.btnProductEdit.Text = "Bearbeiten";
+            this.btnProductEdit.UseVisualStyleBackColor = false;
+            this.btnProductEdit.Click += new System.EventHandler(this.btnProductEdit_Click);
+            // 
+            // btnProductDelete
+            // 
+            this.btnProductDelete.BackColor = System.Drawing.Color.Gray;
+            this.btnProductDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductDelete.Location = new System.Drawing.Point(400, 213);
+            this.btnProductDelete.Name = "btnProductDelete";
+            this.btnProductDelete.Size = new System.Drawing.Size(132, 34);
+            this.btnProductDelete.TabIndex = 11;
+            this.btnProductDelete.Text = "Löschen";
+            this.btnProductDelete.UseVisualStyleBackColor = false;
+            this.btnProductDelete.Click += new System.EventHandler(this.btnProductDelete_Click);
+            // 
+            // btnProductClear
+            // 
+            this.btnProductClear.BackColor = System.Drawing.Color.Gray;
+            this.btnProductClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductClear.Location = new System.Drawing.Point(836, 213);
+            this.btnProductClear.Name = "btnProductClear";
+            this.btnProductClear.Size = new System.Drawing.Size(132, 34);
+            this.btnProductClear.TabIndex = 12;
+            this.btnProductClear.Text = "Zurücksetzen";
+            this.btnProductClear.UseVisualStyleBackColor = false;
+            this.btnProductClear.Click += new System.EventHandler(this.btnProductClear_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Gray;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(124, 331);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(844, 193);
+            this.dataGridView1.TabIndex = 13;
+            // 
+            // ProductsScreen
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DimGray;
+            this.BackgroundImage = global::ProNatur_Biomarkt_GmbH.Properties.Resources.ImgBgProducts;
+            this.ClientSize = new System.Drawing.Size(1009, 552);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btnProductClear);
+            this.Controls.Add(this.btnProductDelete);
+            this.Controls.Add(this.btnProductEdit);
+            this.Controls.Add(this.btnProductSave);
+            this.Controls.Add(this.comboBoxProductCategory);
+            this.Controls.Add(this.textBoxProductPrice);
+            this.Controls.Add(this.lblPrice);
+            this.Controls.Add(this.lblCategory);
+            this.Controls.Add(this.textBoxProductBrand);
+            this.Controls.Add(this.lblBrand);
+            this.Controls.Add(this.txtBoxProductName);
+            this.Controls.Add(this.lblName);
+            this.ForeColor = System.Drawing.Color.White;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Name = "ProductsScreen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Produkte";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.TextBox txtBoxProductName;
+        private System.Windows.Forms.TextBox textBoxProductBrand;
+        private System.Windows.Forms.Label lblBrand;
+        private System.Windows.Forms.Label lblCategory;
+        private System.Windows.Forms.TextBox textBoxProductPrice;
+        private System.Windows.Forms.Label lblPrice;
+        private System.Windows.Forms.ComboBox comboBoxProductCategory;
+        private System.Windows.Forms.Button btnProductSave;
+        private System.Windows.Forms.Button btnProductEdit;
+        private System.Windows.Forms.Button btnProductDelete;
+        private System.Windows.Forms.Button btnProductClear;
+        private System.Windows.Forms.DataGridView dataGridView1;
+    }
+}
