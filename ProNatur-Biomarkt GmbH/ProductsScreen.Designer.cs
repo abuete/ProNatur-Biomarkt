@@ -30,8 +30,9 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblName = new System.Windows.Forms.Label();
-            this.txtBoxProductName = new System.Windows.Forms.TextBox();
+            this.textBoxProductName = new System.Windows.Forms.TextBox();
             this.textBoxProductBrand = new System.Windows.Forms.TextBox();
             this.lblBrand = new System.Windows.Forms.Label();
             this.lblCategory = new System.Windows.Forms.Label();
@@ -58,21 +59,22 @@
             this.lblName.TabIndex = 0;
             this.lblName.Text = "Name";
             // 
-            // txtBoxProductName
+            // textBoxProductName
             // 
-            this.txtBoxProductName.BackColor = System.Drawing.Color.Gray;
-            this.txtBoxProductName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtBoxProductName.CausesValidation = false;
-            this.txtBoxProductName.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxProductName.ForeColor = System.Drawing.Color.White;
-            this.txtBoxProductName.Location = new System.Drawing.Point(124, 27);
-            this.txtBoxProductName.Name = "txtBoxProductName";
-            this.txtBoxProductName.Size = new System.Drawing.Size(271, 22);
-            this.txtBoxProductName.TabIndex = 1;
+            this.textBoxProductName.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxProductName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxProductName.CausesValidation = false;
+            this.textBoxProductName.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxProductName.ForeColor = System.Drawing.Color.White;
+            this.textBoxProductName.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.textBoxProductName.Location = new System.Drawing.Point(124, 27);
+            this.textBoxProductName.Name = "textBoxProductName";
+            this.textBoxProductName.Size = new System.Drawing.Size(271, 22);
+            this.textBoxProductName.TabIndex = 1;
             // 
             // textBoxProductBrand
             // 
-            this.textBoxProductBrand.BackColor = System.Drawing.Color.Gray;
+            this.textBoxProductBrand.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.textBoxProductBrand.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxProductBrand.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxProductBrand.ForeColor = System.Drawing.Color.White;
@@ -107,7 +109,7 @@
             // 
             // textBoxProductPrice
             // 
-            this.textBoxProductPrice.BackColor = System.Drawing.Color.Gray;
+            this.textBoxProductPrice.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.textBoxProductPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxProductPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxProductPrice.ForeColor = System.Drawing.Color.White;
@@ -130,7 +132,7 @@
             // 
             // comboBoxProductCategory
             // 
-            this.comboBoxProductCategory.BackColor = System.Drawing.Color.Gray;
+            this.comboBoxProductCategory.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.comboBoxProductCategory.DropDownHeight = 100;
             this.comboBoxProductCategory.DropDownWidth = 270;
             this.comboBoxProductCategory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -152,7 +154,7 @@
             // 
             // btnProductSave
             // 
-            this.btnProductSave.BackColor = System.Drawing.Color.Gray;
+            this.btnProductSave.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnProductSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductSave.Location = new System.Drawing.Point(263, 213);
             this.btnProductSave.Name = "btnProductSave";
@@ -164,7 +166,7 @@
             // 
             // btnProductEdit
             // 
-            this.btnProductEdit.BackColor = System.Drawing.Color.Gray;
+            this.btnProductEdit.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnProductEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductEdit.Location = new System.Drawing.Point(124, 213);
             this.btnProductEdit.Name = "btnProductEdit";
@@ -176,7 +178,7 @@
             // 
             // btnProductDelete
             // 
-            this.btnProductDelete.BackColor = System.Drawing.Color.Gray;
+            this.btnProductDelete.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnProductDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductDelete.Location = new System.Drawing.Point(400, 213);
             this.btnProductDelete.Name = "btnProductDelete";
@@ -188,7 +190,7 @@
             // 
             // btnProductClear
             // 
-            this.btnProductClear.BackColor = System.Drawing.Color.Gray;
+            this.btnProductClear.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnProductClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductClear.Location = new System.Drawing.Point(836, 213);
             this.btnProductClear.Name = "btnProductClear";
@@ -205,7 +207,7 @@
             this.productsDGV.AllowUserToResizeColumns = false;
             this.productsDGV.AllowUserToResizeRows = false;
             this.productsDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.productsDGV.BackgroundColor = System.Drawing.Color.Gray;
+            this.productsDGV.BackgroundColor = System.Drawing.SystemColors.ControlDarkDark;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -216,25 +218,37 @@
             this.productsDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.productsDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.productsDGV.DefaultCellStyle = dataGridViewCellStyle2;
+            this.productsDGV.GridColor = System.Drawing.SystemColors.ControlDarkDark;
             this.productsDGV.Location = new System.Drawing.Point(124, 289);
+            this.productsDGV.MultiSelect = false;
             this.productsDGV.Name = "productsDGV";
+            this.productsDGV.ReadOnly = true;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.productsDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.productsDGV.RowHeadersVisible = false;
             this.productsDGV.RowHeadersWidth = 51;
-            this.productsDGV.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.Gray;
+            this.productsDGV.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.productsDGV.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
-            this.productsDGV.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Gray;
+            this.productsDGV.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.SystemColors.ControlDark;
             this.productsDGV.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.White;
             this.productsDGV.RowTemplate.Height = 24;
-            this.productsDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+            this.productsDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.productsDGV.Size = new System.Drawing.Size(844, 235);
             this.productsDGV.TabIndex = 13;
+            this.productsDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.productsDGV_CellContentClick);
             // 
             // ProductsScreen
             // 
@@ -254,7 +268,7 @@
             this.Controls.Add(this.lblCategory);
             this.Controls.Add(this.textBoxProductBrand);
             this.Controls.Add(this.lblBrand);
-            this.Controls.Add(this.txtBoxProductName);
+            this.Controls.Add(this.textBoxProductName);
             this.Controls.Add(this.lblName);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -271,7 +285,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.TextBox txtBoxProductName;
+        private System.Windows.Forms.TextBox textBoxProductName;
         private System.Windows.Forms.TextBox textBoxProductBrand;
         private System.Windows.Forms.Label lblBrand;
         private System.Windows.Forms.Label lblCategory;
